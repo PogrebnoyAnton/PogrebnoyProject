@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2 import sql
-from classes.DBDSchema import DBDSchema
+from db_sources.DBClasses import Schema
 
 USERNAME = "postgres"
 
