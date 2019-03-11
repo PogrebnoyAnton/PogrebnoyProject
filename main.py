@@ -1,7 +1,7 @@
 import os
 import xml.dom.minidom as md
-from utils.XML_to_RAM import XMLToRAMConverter
-from utils.RAM_to_XML import RAMToXMLConverter
+from utils.XDB_to_RAM import XMLToRAMConverter
+from utils.RAM_to_XDB import RAMToXMLConverter
 from utils.RAM_to_DBD import RAMToDBDConverter
 from utils.DBD_to_RAM import DBDToRAMConverter
 from db_sources.DBD_const import SQL_DBD_Init
